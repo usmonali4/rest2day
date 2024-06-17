@@ -1,0 +1,157 @@
+/* src/styles.css */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+h1 {
+  color: #333;
+}
+
+form {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin: 20px 0;
+}
+
+form h2 {
+  margin-top: 0;
+}
+
+form div {
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  color: #333;
+}
+
+input {
+  width: 100%;
+  padding: 8px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  color: white;
+  background-color:  #218838;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #1A6E2B;
+}
+
+.toggle-button {
+  background-color: #007bff;
+  margin-bottom: 20px;
+}
+
+.toggle-button:hover {
+  background-color: #0056b3;
+}
+
+.main-container {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  /* max-width: 800px; */
+  width: auto;
+}
+
+.movie-list {
+  list-style: none;
+  padding: 0;
+}
+
+.movie-list li {
+  padding: 10px 0;
+  border-bottom: 1px solid #ccc;
+}
+
+.movie-list li:last-child {
+  border-bottom: none;
+}
+
+/*header*/
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #333;
+}
+
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+}
+
+.nav-buttons {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-buttons li {
+  margin-left: 10px;
+}
+
+.header-buttons {
+  display: flex;
+}
+
+.header-buttons .quiz-button,
+.header-buttons .logout-button, 
+.nav-button, .unlocked-movies {
+  margin-left: 10px;
+  background-color: #222222;
+  color: #f4f4f4;
+  border: none;
+  padding: 10px 15px;
+  cursor: pointer;
+  text-decoration: none;
+  display: inline-block;
+  white-space: nowrap; 
+  border-radius: 5px;
+}
+
+.header-buttons .logout-button:hover {
+  background-color: #D32F2F;
+}
+
+.header-buttons .quiz-button:hover, .unlocked-movies:hover,  
+.nav-button:hover {
+  background-color: #333;
+}
+
+.main-page a {
+  text-decoration: none; 
+  color: #f4f4f4;
+}
+
+.main-page {
+  margin-right: auto;
+  font-size: 35px;
+}

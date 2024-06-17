@@ -1,0 +1,277 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f0f0;
+}
+
+.movie-page {
+  display: flex;
+  padding: 20px;
+  background-color: #fff;
+  width: 800px;
+  margin: 20px auto;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.movie-details {
+  display: flex;
+  flex-direction: column;
+  margin-right: 20px;
+}
+
+.movie-poster {
+  width: 300px; 
+  height: 450px; 
+  object-fit: cover; 
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+
+.details h1 {
+  margin-bottom: 10px;
+  font-size: 25px;
+}
+
+.details p {
+  margin: 5px 0;
+}
+
+.wishlist-button {
+  width: 150px;
+  background-color: #228B22;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  margin: 10px;
+  transition: background-color 0.3s ease;
+}
+
+.watch-button{
+  width: 100px;
+  background-color: #000000;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  margin: 10px;
+  transition: background-color 0.3s ease;
+}
+
+.wishlist-button:hover {
+  background-color: #2EA832;
+}
+.watch-button:hover{
+  background-color: #333;
+}
+
+/* Comments section*/
+
+.comments-section h2 {
+  margin-bottom: 10px;
+}
+
+.comments-section textarea {
+  width: 300px;
+  height: 100px;
+  padding: 10px;
+  margin-bottom: 5px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  resize: none;
+}
+
+.rating {
+  margin-left: 5px;
+  margin-bottom: 10px;
+}
+
+.rating p{
+  margin: 0px;
+}
+
+.rating span {
+  font-size: 24px;
+  cursor: pointer;
+  transition: color 0.2s ease;
+}
+
+.submit-button {
+  background-color: #000;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.submit-button:hover {
+  background-color: #333333;
+}
+
+.comments-list {
+  height: 300px;
+  overflow-y: scroll;
+  margin-top: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);;
+}
+
+
+
+.comment {
+  background-color: #f9f9f9;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+}
+
+.comment p {
+  margin: 5px 0;
+}
+
+.comments-section h2{
+  font-size: 40px;
+}
+.comments-section{
+  margin-left: 450px;
+  position: absolute;
+}
+
+
+
+/* Main page */
+.main-container {
+  text-align: center;
+  padding: 20px;
+}
+
+.movies-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  /* justify-items: center; */
+  padding: 20px;
+}
+
+.movie-card {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: transform 0.3s ease;
+  cursor: pointer;
+  width: 100%;
+  max-width: 300px;
+}
+
+.movie-card:hover {
+  transform: scale(1.05);
+}
+
+.movie-image {
+  width: 100%;
+  height: 350px; 
+  object-fit: cover; 
+}
+
+.movie-card h2 {
+  font-size: 1.25em;
+  margin: 10px;
+}
+
+.movie-card p {
+  font-size: 1em;
+  margin: 10px;
+}
+
+.movie-card button {
+  width: 200px;
+  background-color: #228B22;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  bottom: 0px;
+}
+
+.movie-card button:hover {
+  background-color: #2EA832;
+}
+
+/* Header styling */
+.header {
+  background-color: #333;
+  border-radius: 5px;
+  padding: 10px;
+  color: white;
+}
+
+.header .nav-links {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.header .nav-links li {
+  margin-right: 20px;
+}
+
+.header .nav-links a {
+  color: white;
+  text-decoration: none;
+}
+
+.dropdown-container {
+  position: relative;
+}
+
+#dropdownButton {
+  display: inline-block;
+}
+
+.dropdown-content {
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 80px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 3;
+  /* padding: 12px 16px; */
+  /* top: 100%; Adjust this value if needed */
+}
+
+.dropdown-content label {
+  display: block;
+}
+
+/* Add this at the end of your mainpage.css */
+
+.quiz-button {
+  background-color: #000;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.quiz-button:hover {
+  background-color: #333;
+}
+
+.buttonc {
+  bottom: 0px;
+  position: relative;
+  display: flex;
+}
