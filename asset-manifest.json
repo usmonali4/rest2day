@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/rest2day/static/css/main.8f3fadea.css",
+    "main.js": "/rest2day/static/js/main.bca3e2c2.js",
+    "static/js/453.8ab44547.chunk.js": "/rest2day/static/js/453.8ab44547.chunk.js",
+    "index.html": "/rest2day/index.html",
+    "main.8f3fadea.css.map": "/rest2day/static/css/main.8f3fadea.css.map",
+    "main.bca3e2c2.js.map": "/rest2day/static/js/main.bca3e2c2.js.map",
+    "453.8ab44547.chunk.js.map": "/rest2day/static/js/453.8ab44547.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8f3fadea.css",
+    "static/js/main.bca3e2c2.js"
+  ]
+}
