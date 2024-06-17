@@ -71,6 +71,7 @@ const App = () => {
     <Router>
       <Header isLoggedIn={isLoggedIn} onLogout={handleLogout} curScore={score} username={username}/>
       <Routes>
+        <Route path='/rest2day' element={<Navigate to='/main' />}/>
         <Route path="/main" element={<MainPage updateScore={onBuy}/>} />
         <Route path="/quiz" element={<QuizPage curScore={score} onSolve={solvedQuiz}/>} /> {/* Add route for QuizPage */}
         <Route 
