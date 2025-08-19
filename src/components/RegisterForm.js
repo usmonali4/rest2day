@@ -14,7 +14,7 @@ const handleSubmit = async (e) => {
     return;
   }
   try {
-    const response = await axios.post('/users/login', { username, password });
+    const response = await axios.post('/auth/register', { username, password });
     const token = response.data.token;
     if (token) {
       localStorage.setItem('jwtToken', token);
